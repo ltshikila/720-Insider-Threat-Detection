@@ -1,0 +1,501 @@
+employee_department,employee_campus,employee_position,employee_seniority_years,is_contractor,employee_classification,has_foreign_citizenship,has_criminal_record,has_medical_history,employee_origin_country,total_printed_pages,num_printed_pages_off_hours,total_files_burned,burned_from_other,is_abroad,trip_day_number,hostility_country_level,num_entries,num_unique_campus,late_exit_flag,entry_during_weekend,is_malicious
+Human Resources,Campus A,Employee Welfare Coordinator,19,1,2,0,0,0,Israel,33,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus A,Test Engineer,18,1,2,1,0,0,Brazil,0,0,28,0,0,0.0,0,1,1,0,0,0
+Human Resources,Campus A,Training Coordinator,24,0,1,0,0,0,Israel,7,1,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus B,Manufacturing Engineer,18,1,1,1,0,0,Romania,28,0,23,1,0,0.0,0,0,0,0,0,1
+Information Technology,Campus C,Information Security Specialist,2,0,1,0,1,0,Canada,0,0,40,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus C,Systems and Network Administrator,25,0,2,0,0,1,India,9,2,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus A,Procurement Officer,15,0,1,0,0,0,Israel,16,0,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus C,Integration and Testing Engineer,8,1,2,0,0,0,Israel,1,0,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus A,Operations Manager,18,1,2,0,0,1,Ukraine,0,0,6,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus C,Data Scientist,2,0,2,0,0,0,Ethiopia,2,0,0,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus A,IT Director,12,1,1,0,0,1,Israel,0,0,46,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus C,Secretary,10,1,2,0,0,0,Israel,11,0,0,0,0,0.0,0,0,0,0,0,0
+Human Resources,Campus A,Training Coordinator,0,0,1,0,1,0,Israel,12,4,10,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus A,Secretary,15,0,3,0,0,0,Israel,1,0,44,0,0,0.0,0,2,1,0,0,0
+Information Technology,Campus B,IT Director,12,0,1,0,0,0,Morocco,0,0,0,0,1,10.0,0,0,0,0,0,0
+Security and Information Security,Campus C,Physical Access Control,18,1,3,0,0,0,USA,0,0,3,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus C,Information Security Specialist,8,0,1,0,0,0,Israel,0,0,3,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus A,Business Development Manager,6,0,1,0,0,0,Israel,28,10,0,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus A,Information Security Specialist,0,0,1,1,0,0,Germany,0,0,3,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus C,Integration and Testing Engineer,11,0,3,0,0,0,Ukraine,0,0,43,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus A,Operations Manager,21,0,1,1,0,0,Israel,3,1,0,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus B,Data Scientist,12,1,2,0,0,0,Israel,19,0,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus B,Logistics Manager,20,0,3,0,0,1,Turkey,23,0,0,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus C,Information Security Specialist,8,0,1,0,0,0,Israel,5,1,42,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus C,Integration and Testing Engineer,0,1,3,0,0,0,France,10,0,38,0,0,0.0,0,0,0,0,0,0
+Project Management,Campus B,Project Manager,7,1,1,0,0,0,South Africa,0,0,0,0,0,0.0,0,1,1,0,0,0
+Security and Information Security,Campus B,Physical Access Control,14,0,3,0,0,0,Israel,0,0,9,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus A,Operations Manager,8,0,3,0,0,0,Israel,116,0,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus A,Secretary,5,0,1,0,0,0,Israel,28,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus C,Systems Engineer,11,0,2,0,0,0,Israel,9,0,30,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus C,Information Security Specialist,9,0,2,0,0,0,Russia,5,0,9,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus C,Systems Engineer,0,1,2,0,0,0,Russia,4,0,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus C,Operations Manager,13,0,1,0,0,1,Israel,45,0,0,0,0,0.0,0,0,0,0,0,0
+Project Management,Campus A,Project Engineer,2,0,2,1,0,0,Israel,0,0,9,0,0,0.0,0,1,1,0,0,1
+Information Technology,Campus A,IT Director,25,0,3,0,0,1,Russia,11,1,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus A,Warehouse Manager,6,0,1,0,0,1,Israel,15,0,0,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus B,Project Manager,6,0,2,0,0,0,Argentina,17,0,0,0,0,0.0,0,2,1,0,0,0
+Project Management,Campus A,Project Engineer,1,0,1,1,0,1,Ethiopia,7,0,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus C,Operations Manager,21,0,1,0,1,0,Israel,26,0,0,0,0,0.0,0,2,1,0,0,0
+Engineering Department,Campus B,Design Engineer,3,0,2,0,0,1,Israel,18,6,0,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus B,Secretary,16,0,3,0,0,1,Israel,26,0,0,0,0,0.0,0,3,1,0,0,1
+Engineering Department,Campus B,Systems Engineer,26,0,2,0,0,1,Russia,0,0,88,0,0,0.0,0,4,1,0,1,1
+Information Technology,Campus B,IT Director,13,0,3,1,0,0,Ukraine,5,0,0,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus B,Secretary,16,0,2,0,0,0,France,14,0,0,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus B,Integration and Testing Engineer,21,0,2,0,0,0,Ethiopia,1,0,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus C,Secretary,9,0,2,0,0,0,Israel,6,0,0,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus B,Secretary,3,0,2,0,0,0,Israel,6,0,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus C,Secretary,13,0,1,0,0,0,Ethiopia,34,0,0,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus B,Data Scientist,10,0,1,0,0,0,Israel,2,0,0,0,0,0.0,0,1,1,0,0,0
+Human Resources,Campus C,Employee Welfare Coordinator,24,1,3,0,0,1,India,18,2,0,0,0,0.0,0,0,0,0,0,0
+Marketing and Business Development,Campus A,Business Development Manager,6,0,1,0,0,0,Israel,9,0,0,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus C,Marketing Manager,21,0,1,0,0,0,USA,59,0,0,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus B,Warehouse Manager,10,0,1,0,0,0,Israel,1,0,0,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus B,Data Scientist,10,0,1,0,0,0,Israel,29,0,0,0,0,0.0,0,0,0,0,0,0
+Project Management,Campus A,Project Coordinator,7,0,1,0,0,1,Israel,1,0,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus B,Integration and Testing Engineer,18,1,2,0,0,0,Israel,0,0,9,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus A,Algorithm Engineer,1,0,3,0,0,0,Israel,0,0,0,0,0,0.0,0,1,1,0,1,0
+Marketing and Business Development,Campus C,Marketing Manager,5,0,2,1,0,0,Israel,0,0,0,0,1,10.0,0,0,0,0,0,0
+Engineering Department,Campus C,Design Engineer,12,0,3,0,0,0,Israel,0,0,42,0,0,0.0,0,1,1,0,1,0
+R&D Department,Campus C,Integration and Testing Engineer,26,0,3,0,0,0,USA,3,0,0,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus C,IT Director,29,0,1,0,0,1,Israel,0,0,38,0,0,0.0,0,0,0,0,0,0
+Marketing and Business Development,Campus A,Bid Coordinator,23,1,1,0,0,0,Israel,3,0,0,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus C,Secretary,14,0,1,1,0,0,Israel,39,0,9,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus A,Secretary,4,0,3,0,0,0,Russia,0,0,32,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus C,Operations Manager,10,0,2,1,0,0,Morocco,9,0,0,0,0,0.0,0,1,1,0,1,0
+Engineering Department,Campus A,Process Engineer,16,0,2,1,0,0,Canada,61,0,0,0,0,0.0,0,3,1,0,0,0
+Marketing and Business Development,Campus A,Bid Coordinator,1,0,2,0,0,1,Romania,0,0,0,0,1,8.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus A,Logistics Manager,17,0,1,0,0,0,Israel,0,0,7,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus C,Secretary,11,0,1,1,0,0,Ukraine,16,0,0,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus B,Test Engineer,21,0,2,0,0,1,Israel,0,0,38,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus A,Secretary,8,0,2,0,0,0,France,28,0,0,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus B,Integration and Testing Engineer,0,0,3,0,0,0,Israel,0,0,0,0,1,2.0,0,0,0,0,0,0
+Project Management,Campus B,Secretary,1,0,1,0,1,0,Israel,30,5,0,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus C,Data Scientist,14,0,2,0,0,1,Ukraine,0,0,0,0,0,0.0,0,4,1,0,0,0
+R&D Department,Campus A,Algorithm Engineer,7,1,2,0,0,0,Canada,46,16,0,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus C,Secretary,14,0,1,1,0,0,Israel,7,0,0,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus C,Systems Engineer,0,0,2,0,0,1,Libya,0,0,40,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus B,Design Engineer,3,0,2,0,0,1,Israel,0,0,4,0,0,0.0,0,2,1,0,0,0
+Finance,Campus A,Budget Manager,10,0,3,1,0,0,Israel,22,0,0,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus B,Information Security Specialist,15,0,1,0,0,0,Russia,2,0,0,0,0,0.0,0,2,1,0,0,0
+Project Management,Campus C,Project Coordinator,8,0,1,0,0,0,Israel,0,0,8,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus B,Procurement Officer,17,0,1,0,0,1,India,37,0,0,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus A,Process Engineer,16,0,3,0,0,1,North Korea,11,3,27,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus C,Secretary,4,0,2,0,0,0,Israel,333,0,0,0,0,0.0,0,2,1,0,0,0
+Marketing and Business Development,Campus A,Business Development Manager,19,0,1,0,0,0,Israel,0,0,9,0,1,11.0,3,0,0,0,0,1
+R&D Department,Campus A,Integration and Testing Engineer,0,0,3,0,0,0,UK,0,0,38,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus B,Secretary,13,0,2,0,0,0,Israel,0,0,0,0,1,4.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus C,Secretary,11,0,1,1,0,0,Ukraine,4,0,0,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus C,Data Scientist,14,0,2,0,0,1,Ukraine,0,0,0,0,0,0.0,0,2,1,0,0,0
+Information Technology,Campus B,IT Director,30,0,2,0,0,0,Israel,0,0,57,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus B,Warehouse Manager,21,0,2,0,0,0,Ukraine,0,0,5,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus A,Test Engineer,23,0,3,1,0,0,Israel,3,0,0,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus A,Secretary,14,0,1,1,0,0,Argentina,0,0,48,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus C,Marketing Manager,12,0,1,0,0,0,USA,0,0,23,0,0,0.0,0,2,1,0,0,0
+R&D Department,Campus A,Algorithm Engineer,10,1,3,0,0,0,Turkey,1,0,0,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus C,Project Coordinator,6,0,1,0,0,0,Russia,22,0,0,0,0,0.0,0,2,1,0,0,0
+Engineering Department,Campus C,Design Engineer,21,0,2,1,0,0,Russia,14,0,0,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus C,BI Developer / Data Analyst,6,1,3,0,0,1,Russia,0,0,36,0,0,0.0,0,2,1,0,0,0
+Marketing and Business Development,Campus B,Secretary,12,0,1,0,0,1,Israel,28,4,0,0,0,0.0,0,1,1,0,0,0
+Finance,Campus A,Accountant,23,0,1,0,0,0,Israel,46,0,0,0,0,0.0,0,1,1,0,0,0
+Finance,Campus C,Budget Manager,15,1,2,0,0,0,Israel,7,0,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus C,Secretary,14,0,1,0,0,0,Israel,3,0,0,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus A,Project Coordinator,20,0,2,0,0,0,Russia,0,0,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus C,Secretary,15,0,1,0,0,0,USA,0,0,0,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus A,Secretary,15,0,2,1,0,0,UK,0,0,29,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus B,IT Director,13,0,3,1,0,0,Ukraine,12,0,0,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus B,Algorithm Engineer,12,0,3,0,0,1,UK,2,0,0,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus A,Information Security Specialist,10,0,1,0,0,0,UK,0,0,50,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus B,Algorithm Engineer,10,0,2,0,0,0,Yemen,3,0,66,1,0,0.0,0,0,0,0,0,1
+Operations and Manufacturing,Campus A,Warehouse Manager,19,0,2,0,0,0,Libya,0,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus B,Process Engineer,21,0,2,0,0,0,Israel,0,0,30,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus C,Project Engineer,13,0,2,1,0,0,Israel,7,0,7,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus B,Secretary,11,0,2,0,0,0,Israel,3,0,0,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus C,Account Manager,11,0,1,0,0,0,France,18,0,49,0,0,0.0,0,2,1,0,0,1
+Marketing and Business Development,Campus C,Business Development Manager,10,0,1,0,0,0,Israel,26,0,0,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus B,Design Engineer,24,0,2,0,0,0,Israel,0,0,74,0,0,0.0,0,2,1,0,0,0
+R&D Department,Campus B,Systems Engineer,13,0,2,1,0,1,Israel,0,0,28,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus C,Bid Coordinator,4,0,1,0,0,0,Morocco,2,0,0,0,0,0.0,0,0,0,0,0,0
+Project Management,Campus A,Secretary,3,0,1,0,0,0,Israel,25,0,0,0,0,0.0,0,1,1,0,1,0
+Engineering Department,Campus B,Process Engineer,1,0,2,0,0,0,Israel,0,0,5,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus A,Secretary,6,0,1,0,0,1,UK,89,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus B,Test Engineer,26,0,2,0,0,0,Israel,0,0,28,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus B,Secretary,15,0,1,0,0,0,Israel,0,0,13,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus A,Design Engineer,5,0,2,0,0,1,Ukraine,0,0,0,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus C,Project Coordinator,2,0,1,1,0,0,Israel,22,0,0,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus B,Secretary,5,0,2,0,0,0,India,0,0,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus C,Systems Engineer,9,0,3,0,0,0,Russia,14,0,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus A,Head of R&D,18,0,2,0,0,0,India,0,0,27,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus A,Secretary,11,0,1,0,0,0,Russia,3,0,0,0,0,0.0,0,1,1,0,1,0
+Engineering Department,Campus C,Test Engineer,12,0,2,1,0,0,Israel,5,1,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus B,Head of R&D,30,0,3,0,0,0,Israel,28,6,0,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus C,Data Scientist,18,0,1,0,0,0,USA,0,0,36,0,0,0.0,0,2,1,0,0,0
+R&D Department,Campus C,Integration and Testing Engineer,4,0,2,0,0,0,Argentina,1,0,34,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus A,Warehouse Manager,19,0,1,1,0,0,South Africa,17,0,0,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus C,Systems Engineer,17,0,2,0,0,0,France,0,0,0,0,0,0.0,0,4,1,0,0,0
+Human Resources,Campus C,Recruitment Coordinator,24,0,3,0,0,0,UK,0,0,12,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus A,Project Engineer,26,1,2,0,0,0,Israel,6,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus A,Head of Engineering,16,0,2,0,0,0,Ukraine,1,0,0,0,0,0.0,0,0,0,0,0,0
+Executive Management,Campus C,Chief Operating Officer (COO),27,0,4,0,0,0,France,1,0,0,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus B,Procurement Officer,2,0,1,0,0,0,Israel,11,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus B,Systems Engineer,9,0,2,1,0,0,Ukraine,4,1,0,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus B,Marketing Manager,19,0,1,0,0,0,USA,12,0,0,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus A,Business Development Manager,6,0,1,1,0,0,Israel,0,0,0,0,0,0.0,0,2,1,0,0,0
+R&D Department,Campus B,Integration and Testing Engineer,25,0,3,0,0,0,USA,0,0,0,0,0,0.0,0,1,1,0,1,0
+R&D Department,Campus B,Systems Engineer,22,0,2,0,0,0,Syria,3,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus B,Head of Engineering,15,0,3,0,0,0,Israel,0,0,99,0,0,0.0,0,0,0,0,0,1
+R&D Department,Campus C,Systems Engineer,18,1,2,0,0,0,Ukraine,0,0,0,0,0,0.0,0,1,1,0,1,0
+Marketing and Business Development,Campus B,Secretary,8,0,2,0,0,0,Argentina,15,0,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus A,Operations Manager,6,0,1,0,0,0,Morocco,1,0,11,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus C,Integration and Testing Engineer,0,1,3,0,0,0,France,5,1,0,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus C,Business Development Manager,7,1,1,0,0,0,Hungary,67,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus A,Head of Engineering,26,0,3,0,0,0,Israel,0,0,29,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus C,Process Engineer,15,1,2,0,0,0,Russia,0,0,34,0,0,0.0,0,2,1,0,0,0
+Engineering Department,Campus B,Secretary,13,0,2,0,0,1,USA,0,0,43,0,0,0.0,0,0,0,0,0,0
+Project Management,Campus C,Project Engineer,10,0,2,0,0,0,Canada,55,0,0,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus C,Information Security Specialist,23,0,1,0,0,0,Israel,0,0,129,0,0,0.0,0,1,1,0,0,1
+Operations and Manufacturing,Campus C,Procurement Officer,26,0,2,0,0,0,Ukraine,1,0,0,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus C,Project Coordinator,6,0,1,0,0,0,Russia,51,0,0,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus B,Manufacturing Engineer,14,0,2,0,0,0,USA,2,0,0,0,0,0.0,0,3,1,0,0,1
+Operations and Manufacturing,Campus A,Logistics Manager,18,0,1,0,0,0,Ukraine,68,39,7,0,0,0.0,0,0,0,0,0,1
+Operations and Manufacturing,Campus C,Operations Manager,10,0,2,1,0,0,Morocco,33,0,0,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus B,Test Engineer,25,0,3,0,0,1,India,7,2,2,0,0,0.0,0,2,1,0,0,0
+Marketing and Business Development,Campus C,Account Manager,11,0,1,0,0,0,France,51,0,0,0,0,0.0,0,1,1,0,1,1
+Finance,Campus A,Financial Analyst,22,0,2,0,0,0,Ethiopia,33,0,0,0,0,0.0,0,0,0,0,0,0
+Finance,Campus A,Budget Manager,17,0,2,0,0,0,Russia,19,0,0,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus A,Development Engineer (Hardware / Software / Mechanical),24,0,2,0,0,0,Romania,6,1,0,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus A,Secretary,15,0,3,0,0,0,Israel,0,0,41,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus A,Systems Engineer,15,0,3,0,0,0,Israel,5,0,0,0,0,0.0,0,2,1,0,1,0
+Operations and Manufacturing,Campus C,Procurement Officer,5,0,2,1,0,0,Syria,7,0,0,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus B,Secretary,3,0,2,0,0,0,Israel,0,0,46,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus A,Head of Engineering,28,0,2,1,0,0,Israel,0,0,41,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus B,Secretary,9,0,1,0,0,1,Israel,67,0,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus A,Integration and Testing Engineer,11,0,2,0,0,0,Brazil,0,0,0,0,1,7.0,0,0,0,0,0,0
+Project Management,Campus A,Project Manager,17,1,1,0,0,0,Germany,10,0,0,0,0,0.0,0,0,0,0,0,0
+Marketing and Business Development,Campus B,Secretary,16,0,1,0,0,0,Israel,28,0,0,0,0,0.0,0,0,0,0,0,0
+Marketing and Business Development,Campus B,Marketing Manager,5,0,1,0,0,0,Israel,13,0,18,0,0,0.0,0,1,1,0,0,0
+Finance,Campus A,Accountant,17,0,2,1,0,0,USA,11,0,0,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus A,Integration and Testing Engineer,20,0,2,0,0,0,Germany,10,0,10,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus C,Enterprise Systems Developer (ERP / CRM / SAP),6,0,2,1,0,0,Israel,9,0,58,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus B,Algorithm Engineer,17,0,2,1,0,0,Russia,0,0,43,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus A,Algorithm Engineer,21,0,2,0,0,0,USA,3,0,43,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus B,Secretary,15,0,2,0,0,1,Israel,0,0,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus C,Logistics Manager,19,0,3,0,0,0,Israel,15,0,7,0,0,0.0,0,2,1,0,0,0
+R&D Department,Campus A,Head of R&D,17,0,3,0,0,0,Russia,0,0,38,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus C,Project Manager,5,1,1,0,0,0,Russia,0,0,7,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus A,Systems and Network Administrator,6,0,1,0,0,0,USA,0,0,45,0,0,0.0,0,0,0,0,0,0
+Human Resources,Campus C,Employee Welfare Coordinator,22,0,2,0,0,0,Israel,35,0,0,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus B,Project Manager,7,0,2,1,0,0,Israel,23,7,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus C,Integration and Testing Engineer,6,0,2,0,0,0,USA,9,0,0,0,0,0.0,0,1,1,0,0,0
+Human Resources,Campus A,Secretary,6,0,2,0,1,0,Israel,30,0,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus A,Warehouse Manager,17,0,1,1,0,0,Russia,17,0,0,0,0,0.0,0,2,1,0,0,0
+R&D Department,Campus A,Development Engineer (Hardware / Software / Mechanical),23,0,2,0,0,0,Israel,0,0,29,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus B,Secretary,16,1,2,0,0,0,Pakistan,0,0,6,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus B,Operations Manager,11,0,1,1,0,0,Israel,58,0,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus A,Algorithm Engineer,12,0,2,0,0,1,Ethiopia,0,0,28,0,0,0.0,0,1,1,0,0,0
+Finance,Campus C,Financial Analyst,4,0,3,0,0,0,Israel,0,0,2,0,0,0.0,0,2,1,0,0,0
+Marketing and Business Development,Campus C,Business Development Manager,7,1,1,0,0,0,Hungary,24,5,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus C,Head of R&D,21,0,2,0,0,0,Iran,0,0,34,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus C,Operations Manager,16,0,1,1,0,0,Israel,7,0,0,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus C,Enterprise Systems Developer (ERP / CRM / SAP),5,0,3,0,0,0,Israel,0,0,41,0,0,0.0,0,0,0,0,0,0
+Finance,Campus C,Accountant,10,0,1,0,0,0,Ukraine,11,2,0,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus B,Logistics Manager,7,0,1,0,0,1,Israel,15,0,0,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus B,Enterprise Systems Developer (ERP / CRM / SAP),7,0,1,1,0,0,Turkey,0,0,48,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus A,Systems Engineer,20,0,2,0,0,1,South Africa,0,0,34,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus C,Bid Coordinator,4,0,1,0,0,0,Morocco,12,1,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus A,Logistics Manager,13,0,1,0,0,0,China,0,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus B,Secretary,11,0,2,0,0,1,Russia,0,0,3,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus B,Process Engineer,3,0,3,1,0,0,Israel,0,0,0,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus C,Bid Coordinator,11,0,1,0,0,0,Israel,4,0,6,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus B,Information Security Specialist,2,0,2,1,0,0,USA,11,0,0,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus B,Enterprise Systems Developer (ERP / CRM / SAP),1,0,1,1,0,0,Germany,0,0,3,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus B,Test Engineer,5,1,3,0,0,0,Poland,0,0,29,0,0,0.0,0,2,1,0,0,0
+Executive Management,Campus A,Chief Human Resources Officer (CHRO),17,0,4,1,0,0,Israel,0,0,0,0,1,10.0,0,0,0,0,0,0
+Engineering Department,Campus B,Test Engineer,15,0,2,0,0,0,Israel,5,1,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus B,Algorithm Engineer,10,0,3,1,0,0,USA,0,0,22,0,0,0.0,0,0,0,0,0,0
+Marketing and Business Development,Campus C,Marketing Manager,16,0,1,0,0,0,UK,34,0,18,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus C,Test Engineer,3,0,2,0,0,0,Israel,5,1,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus C,Procurement Officer,13,0,2,0,1,0,Russia,23,0,0,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus B,Head of Engineering,15,0,3,0,0,0,Israel,0,0,65,0,0,0.0,0,1,1,0,0,1
+Engineering Department,Campus B,Systems Engineer,4,0,2,0,0,0,South Africa,0,0,0,0,0,0.0,0,1,1,0,0,0
+Human Resources,Campus A,Training Coordinator,3,0,2,0,0,0,Israel,54,0,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus C,Secretary,14,0,1,0,0,0,Israel,1,0,5,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus B,Warehouse Manager,14,0,2,0,0,0,Germany,3,0,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus A,Warehouse Manager,6,0,1,0,0,1,Israel,18,0,7,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus B,Warehouse Manager,10,0,1,0,0,0,Israel,39,0,0,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus B,Project Manager,10,0,1,0,0,0,Romania,9,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus B,Secretary,3,0,3,0,0,0,China,8,0,0,0,0,0.0,0,2,1,0,0,0
+R&D Department,Campus B,Integration and Testing Engineer,22,0,3,0,0,0,South Africa,0,0,7,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus B,Development Engineer (Hardware / Software / Mechanical),11,1,2,0,0,0,Israel,3,0,0,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus B,Marketing Manager,10,1,2,0,0,0,Israel,0,0,0,0,1,8.0,0,0,0,0,0,0
+Security and Information Security,Campus A,Security Officer,4,1,4,1,0,0,Israel,0,0,8,0,0,0.0,0,2,1,0,1,0
+Human Resources,Campus A,Employee Welfare Coordinator,16,0,1,0,0,0,Israel,66,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus B,Head of Engineering,27,0,2,0,0,1,USA,2,0,0,0,0,0.0,0,2,1,0,0,0
+Information Technology,Campus C,Information Security Specialist,19,0,2,0,1,0,France,5,0,5,0,0,0.0,0,2,1,0,0,0
+R&D Department,Campus C,Systems Engineer,10,0,2,0,1,1,Israel,0,0,2,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus A,Integration and Testing Engineer,12,0,2,0,0,0,France,0,0,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus C,Manufacturing Engineer,13,0,3,0,0,1,Russia,22,0,0,0,0,0.0,0,0,0,0,0,0
+Human Resources,Campus A,HR Manager,9,0,2,1,0,1,Ukraine,51,0,0,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus A,Project Engineer,24,0,3,1,0,1,Israel,0,0,2,0,0,0.0,0,2,1,0,1,0
+Engineering Department,Campus C,Test Engineer,9,1,3,0,0,0,Israel,0,0,3,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus A,Process Engineer,19,0,3,0,0,0,Argentina,5,0,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus A,Manufacturing Engineer,21,0,1,0,0,0,Israel,4,0,0,0,0,0.0,0,0,0,0,0,0
+Marketing and Business Development,Campus A,Bid Coordinator,9,0,1,0,0,0,France,31,0,0,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus C,Head of Engineering,23,0,2,0,0,0,Argentina,8,0,0,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus A,IT Director,19,0,2,0,0,0,Morocco,8,0,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus B,Procurement Officer,12,0,2,0,0,1,Israel,20,0,0,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus B,Data Scientist,14,0,2,0,0,0,Ukraine,0,0,0,0,0,0.0,0,2,1,0,1,1
+Marketing and Business Development,Campus A,Bid Coordinator,20,0,2,0,0,1,France,37,11,0,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus C,Secretary,11,1,1,0,0,0,South Africa,6,0,11,0,0,0.0,0,1,1,0,0,0
+Finance,Campus C,Finance Manager,7,0,1,0,0,1,USA,9,0,5,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus C,Process Engineer,4,0,2,0,0,0,Ukraine,0,0,9,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus C,Systems and Network Administrator,20,0,1,0,0,0,China,6,1,0,0,0,0.0,0,1,1,0,0,0
+Human Resources,Campus A,Training Coordinator,4,1,1,0,0,0,UK,18,0,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus B,Secretary,4,0,1,0,0,0,Israel,2,0,0,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus A,Secretary,9,0,2,0,0,0,Israel,0,0,0,0,1,5.0,0,0,0,0,0,0
+Finance,Campus A,Secretary,1,0,3,0,0,0,France,11,0,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus A,Logistics Manager,13,0,1,0,0,0,China,1,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus A,Design Engineer,20,1,3,1,0,0,Russia,1,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus B,Systems Engineer,13,0,2,0,0,0,Israel,11,0,32,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus B,Process Engineer,16,0,2,0,0,1,USA,14,0,3,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus C,Information Security Specialist,7,0,1,1,0,0,Israel,15,1,54,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus C,Project Manager,8,0,2,0,0,1,Ukraine,19,0,0,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus B,Account Manager,17,0,2,0,0,0,Germany,0,0,13,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus B,Head of Engineering,27,1,2,0,0,0,China,0,0,107,0,0,0.0,0,0,0,0,0,1
+Engineering Department,Campus A,Systems Engineer,11,0,2,0,0,1,Argentina,0,0,34,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus A,Design Engineer,2,0,3,0,0,0,France,0,0,32,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus A,Design Engineer,3,0,2,0,0,1,Israel,47,0,60,0,0,0.0,0,2,3,0,0,1
+Project Management,Campus C,Project Coordinator,2,0,1,1,0,0,Israel,19,0,0,0,0,0.0,0,1,1,0,0,0
+Finance,Campus A,Accountant,17,0,2,1,0,0,USA,26,0,0,0,0,0.0,0,2,1,0,0,0
+Finance,Campus C,Secretary,1,0,2,0,0,0,Israel,7,0,10,0,0,0.0,0,0,0,0,0,0
+Marketing and Business Development,Campus B,Secretary,4,0,1,0,0,0,USA,22,0,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus A,Secretary,1,0,2,0,0,0,Israel,3,1,0,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus C,Procurement Officer,5,0,2,1,0,0,Syria,12,0,0,0,0,0.0,0,0,0,0,0,0
+Marketing and Business Development,Campus C,Marketing Manager,16,0,3,0,0,0,USA,44,0,0,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus A,Information Security Specialist,20,0,1,0,0,0,France,5,0,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus B,Secretary,1,1,3,0,0,0,Israel,7,1,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus C,Integration and Testing Engineer,2,0,2,0,0,0,Romania,1,0,31,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus A,Head of Engineering,11,0,2,1,0,0,Israel,0,0,33,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus A,Logistics Manager,10,0,2,0,0,0,Israel,0,0,10,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus B,Project Engineer,14,0,1,0,0,0,Russia,2,0,0,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus B,Secretary,13,0,2,0,0,1,USA,0,0,33,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus B,Bid Coordinator,24,0,1,0,0,0,India,47,24,46,0,0,0.0,0,0,0,0,0,1
+R&D Department,Campus B,Development Engineer (Hardware / Software / Mechanical),0,0,2,0,0,0,Israel,4,0,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus A,Secretary,6,0,2,0,0,0,Russia,3,0,7,0,0,0.0,0,2,1,0,0,0
+Project Management,Campus C,Project Manager,5,0,1,0,1,1,Israel,37,0,0,0,0,0.0,0,0,0,0,0,0
+Project Management,Campus C,Project Manager,19,0,1,0,0,0,Germany,6,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus A,Design Engineer,18,0,3,0,0,0,USA,4,0,32,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus C,Project Manager,21,0,1,0,0,0,France,6,0,5,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus B,Logistics Manager,20,0,3,0,0,1,Turkey,6,0,0,0,0,0.0,0,2,1,0,0,0
+R&D Department,Campus B,Development Engineer (Hardware / Software / Mechanical),23,0,3,0,0,0,Israel,1,0,7,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus B,Algorithm Engineer,10,0,3,1,0,0,USA,0,0,29,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus C,Secretary,4,0,2,0,0,0,UK,11,0,0,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus C,Account Manager,13,0,3,0,0,0,Israel,4,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus A,Head of Engineering,16,0,2,0,0,0,Israel,6,0,0,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus A,Project Engineer,24,0,3,1,0,1,Israel,7,0,0,0,0,0.0,0,0,0,0,0,0
+Project Management,Campus B,Project Coordinator,2,0,2,0,0,0,India,24,0,0,0,0,0.0,0,1,1,0,1,0
+Operations and Manufacturing,Campus A,Procurement Officer,0,0,1,0,0,0,Israel,24,0,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus A,Integration and Testing Engineer,24,0,2,0,0,1,China,0,0,25,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus B,Secretary,1,0,2,0,0,0,South Africa,1,0,0,0,0,0.0,0,0,0,0,0,0
+Project Management,Campus C,Project Manager,19,0,1,0,0,0,Israel,0,0,0,0,0,0.0,0,0,0,0,0,0
+Project Management,Campus B,Project Manager,21,0,1,0,0,0,Israel,27,0,0,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus B,IT Director,29,1,1,0,0,1,Israel,0,0,0,0,1,5.0,0,0,0,0,0,0
+Project Management,Campus B,Project Coordinator,14,0,1,0,0,1,France,68,0,0,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus A,Integration and Testing Engineer,7,0,2,0,0,0,Iran,0,0,0,0,0,0.0,0,0,0,0,0,0
+Project Management,Campus C,Project Coordinator,26,0,1,0,0,0,Malaysia,1,0,12,0,0,0.0,0,2,1,0,0,0
+R&D Department,Campus A,Secretary,9,0,2,1,0,0,Israel,0,0,77,0,0,0.0,0,1,1,0,0,1
+R&D Department,Campus B,Secretary,13,0,2,0,0,0,Israel,0,0,3,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus A,IT Director,29,1,3,1,0,0,Qatar,0,0,55,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus A,Secretary,14,0,2,0,0,0,Argentina,0,0,39,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus C,Design Engineer,5,0,3,0,0,1,Turkey,0,0,10,0,0,0.0,0,0,0,0,0,0
+Finance,Campus A,Finance Manager,17,0,1,0,0,0,Ukraine,10,0,0,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus C,BI Developer / Data Analyst,18,1,2,0,0,0,Israel,0,0,57,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus A,Systems Engineer,10,0,3,1,0,0,Israel,0,0,9,0,1,3.0,0,0,0,0,0,0
+R&D Department,Campus B,Head of R&D,29,0,2,0,0,0,Israel,0,0,32,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus B,Systems Engineer,21,1,2,0,0,1,France,1,0,34,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus A,Design Engineer,13,0,2,0,0,0,Georgia,4,0,0,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus C,Secretary,11,0,1,1,0,0,Ukraine,0,0,9,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus C,Marketing Manager,16,0,3,0,0,0,USA,4,0,0,0,0,0.0,0,0,0,0,0,0
+Project Management,Campus B,Project Manager,20,0,1,0,0,0,Israel,22,0,0,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus C,Information Security Specialist,0,0,2,0,0,1,Israel,0,0,34,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus B,Procurement Officer,0,1,2,0,0,1,Israel,6,0,0,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus A,Secretary,8,1,2,0,0,0,Russia,0,0,0,0,1,8.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus C,Warehouse Manager,7,0,1,0,0,1,Israel,42,0,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus C,Operations Manager,6,0,1,0,0,0,Argentina,7,0,10,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus C,Logistics Manager,5,0,1,1,0,0,Ukraine,3,0,0,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus A,Logistics Manager,18,0,1,0,0,0,Ukraine,24,0,0,0,0,0.0,0,0,0,0,0,1
+Operations and Manufacturing,Campus C,Secretary,4,0,2,0,0,0,Israel,0,0,0,0,0,0.0,0,1,1,0,0,0
+Human Resources,Campus A,HR Manager,17,0,2,0,0,0,Israel,14,0,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus A,Secretary,14,0,1,0,0,0,USA,12,0,0,0,0,0.0,0,1,1,0,1,0
+Engineering Department,Campus B,Design Engineer,3,0,2,1,0,0,Argentina,28,0,0,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus A,Systems Engineer,24,0,2,0,0,0,Germany,8,0,0,0,0,0.0,0,2,1,0,0,0
+R&D Department,Campus A,Development Engineer (Hardware / Software / Mechanical),0,0,3,1,0,0,Israel,1,0,0,0,0,0.0,0,0,0,0,0,0
+Marketing and Business Development,Campus A,Secretary,5,0,2,0,0,0,France,68,0,0,0,0,0.0,0,0,0,0,0,0
+Marketing and Business Development,Campus B,Account Manager,11,0,2,0,0,1,Russia,0,0,0,0,1,3.0,0,0,0,0,0,0
+Marketing and Business Development,Campus A,Business Development Manager,15,0,1,0,0,0,South Africa,9,0,0,0,0,0.0,0,2,1,0,0,0
+Engineering Department,Campus B,Head of Engineering,17,0,2,1,0,0,Canada,0,0,38,0,0,0.0,0,0,0,0,0,0
+Marketing and Business Development,Campus A,Account Manager,7,0,1,1,0,0,Israel,15,5,0,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus C,Project Engineer,5,0,1,0,0,0,Russia,11,0,0,0,0,0.0,0,2,1,0,0,0
+Engineering Department,Campus A,Secretary,4,0,2,0,0,0,Israel,0,0,0,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus B,Logistics Manager,8,0,2,1,0,0,USA,4,0,0,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus C,Systems Engineer,11,0,2,0,0,0,Israel,6,0,0,0,0,0.0,0,2,1,0,0,0
+Marketing and Business Development,Campus B,Secretary,7,0,2,1,0,0,Israel,17,0,0,0,0,0.0,0,2,1,0,0,0
+R&D Department,Campus A,Systems Engineer,13,0,2,0,0,0,Israel,7,0,4,0,0,0.0,0,1,1,0,0,0
+Human Resources,Campus B,Secretary,8,1,2,0,0,0,Israel,12,0,22,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus C,Test Engineer,21,0,2,0,0,0,Israel,1,0,0,0,0,0.0,0,1,1,0,0,0
+Finance,Campus B,Budget Manager,20,0,2,0,0,0,UK,19,0,0,0,0,0.0,0,2,1,0,0,0
+Information Technology,Campus B,Enterprise Systems Developer (ERP / CRM / SAP),1,0,1,1,0,0,Germany,0,0,9,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus A,Secretary,1,0,1,0,0,0,Russia,0,0,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus C,Development Engineer (Hardware / Software / Mechanical),22,0,2,0,0,0,Georgia,0,0,39,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus A,Warehouse Manager,15,0,2,0,0,0,Ukraine,23,0,0,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus A,Algorithm Engineer,11,0,3,0,0,0,Israel,1,0,32,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus B,Design Engineer,20,0,3,1,0,1,Israel,13,2,0,0,0,0.0,0,0,0,0,0,0
+Marketing and Business Development,Campus B,Marketing Manager,9,0,1,0,0,0,Israel,26,5,0,0,0,0.0,0,0,0,0,0,0
+Security and Information Security,Campus C,Security Officer,21,0,3,0,0,0,France,0,0,0,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus C,Secretary,16,1,1,0,0,0,Canada,175,0,0,0,0,0.0,0,1,1,0,0,1
+Human Resources,Campus A,Recruitment Coordinator,15,0,2,0,0,0,Georgia,25,0,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus A,Logistics Manager,11,0,1,0,0,0,Israel,4,0,0,0,0,0.0,0,2,1,0,0,0
+Project Management,Campus C,Project Coordinator,7,0,1,0,1,0,Israel,7,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus A,Systems Engineer,13,1,3,0,0,0,France,0,0,0,0,1,4.0,0,0,0,0,0,0
+R&D Department,Campus A,Algorithm Engineer,1,0,3,0,0,0,Israel,6,0,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus C,Warehouse Manager,16,0,3,1,0,0,Morocco,50,0,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus C,Procurement Officer,21,0,1,0,0,0,Israel,0,0,6,0,0,0.0,0,0,0,0,0,0
+Marketing and Business Development,Campus A,Account Manager,7,0,1,1,0,0,Israel,0,0,0,0,1,2.0,0,0,0,0,0,0
+Project Management,Campus B,Project Coordinator,5,0,2,0,0,0,Russia,33,0,0,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus A,Design Engineer,15,0,3,0,0,1,Romania,3,1,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus B,Head of R&D,29,0,2,0,0,0,Israel,1,0,38,0,0,0.0,0,0,0,0,0,0
+Marketing and Business Development,Campus C,Marketing Manager,5,0,2,1,0,0,Israel,3,0,0,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus B,Secretary,11,0,2,0,0,1,Russia,0,0,46,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus B,Warehouse Manager,7,0,2,0,0,0,Ethiopia,8,0,0,0,0,0.0,0,2,1,0,0,0
+Information Technology,Campus B,Secretary,11,1,1,0,0,1,Ukraine,13,2,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus B,Warehouse Manager,12,0,2,1,0,0,Israel,31,0,0,0,0,0.0,0,0,0,0,0,0
+Project Management,Campus C,Project Engineer,18,0,2,0,0,0,Ethiopia,2,0,13,0,0,0.0,0,0,0,0,0,0
+Human Resources,Campus C,Employee Welfare Coordinator,9,0,2,0,0,0,Israel,13,0,0,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus C,Information Security Specialist,19,0,2,0,1,0,France,7,0,0,0,0,0.0,0,2,1,0,0,0
+Finance,Campus B,Accountant,14,1,3,0,1,0,UK,5,0,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus B,Procurement Officer,0,1,2,0,0,1,Israel,0,0,2,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus C,Procurement Officer,24,0,1,0,0,1,Israel,85,0,0,0,0,0.0,0,2,1,0,0,1
+Project Management,Campus A,Secretary,10,0,1,1,0,0,Russia,45,0,0,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus A,Business Development Manager,6,0,1,1,0,0,Israel,5,0,0,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus A,Integration and Testing Engineer,11,0,2,0,0,0,Ethiopia,6,0,0,0,0,0.0,0,0,0,0,0,0
+Project Management,Campus B,Project Coordinator,25,0,1,0,0,0,USA,30,0,0,0,0,0.0,0,0,0,0,0,0
+Project Management,Campus A,Project Engineer,1,0,1,1,0,1,Ethiopia,45,0,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus C,Operations Manager,12,0,1,0,0,1,Israel,22,0,0,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus A,Systems Engineer,5,0,2,0,0,0,Yemen,8,2,0,0,0,0.0,0,0,0,0,0,0
+Human Resources,Campus A,Training Coordinator,21,0,1,1,0,0,Libya,1,0,0,0,0,0.0,0,2,1,0,0,0
+Marketing and Business Development,Campus B,Secretary,7,0,2,1,0,0,Israel,0,0,0,0,1,2.0,0,0,0,0,0,0
+Marketing and Business Development,Campus C,Marketing Manager,13,0,2,0,0,0,Israel,0,0,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus A,Manufacturing Engineer,21,0,1,0,0,0,Israel,26,0,0,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus B,Integration and Testing Engineer,22,0,3,0,0,0,Israel,0,0,0,0,1,4.0,1,0,0,0,0,0
+Human Resources,Campus A,Training Coordinator,4,1,1,0,0,0,UK,46,0,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus A,Algorithm Engineer,13,1,2,0,0,0,Israel,0,0,0,0,1,1.0,0,0,0,0,0,0
+Project Management,Campus A,Secretary,3,0,1,0,0,0,Israel,31,0,0,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus A,Development Engineer (Hardware / Software / Mechanical),19,0,2,0,0,1,Israel,0,0,25,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus C,Enterprise Systems Developer (ERP / CRM / SAP),7,0,1,0,0,0,Ukraine,2,0,44,0,0,0.0,0,2,1,0,0,0
+Marketing and Business Development,Campus A,Account Manager,12,0,2,0,0,0,France,15,4,0,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus B,Enterprise Systems Developer (ERP / CRM / SAP),26,0,1,0,0,0,Russia,7,1,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus B,Procurement Officer,3,1,3,0,0,0,Israel,62,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus C,Process Engineer,12,0,2,0,0,0,Israel,0,0,39,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus B,Bid Coordinator,26,0,1,0,0,0,Canada,5,0,26,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus B,Process Engineer,3,0,2,0,0,0,France,0,0,55,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus A,Secretary,8,0,2,0,0,1,Israel,2,0,0,0,0,0.0,0,1,1,0,0,0
+Legal and Regulation,Campus A,Regulatory Affairs Officer,25,0,3,0,0,0,Israel,22,0,0,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus B,Account Manager,10,0,1,0,0,0,India,9,2,0,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus B,Secretary,7,0,3,0,0,0,Argentina,4,0,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus A,Integration and Testing Engineer,12,0,2,0,0,0,France,13,0,34,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus C,Operations Manager,8,0,3,0,0,0,UK,1,0,5,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus A,Systems and Network Administrator,9,0,1,0,0,0,Israel,0,0,0,0,1,1.0,0,0,0,0,0,0
+R&D Department,Campus C,Integration and Testing Engineer,4,0,2,0,0,0,Argentina,0,0,0,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus A,Operations Manager,14,0,2,0,0,0,Libya,0,0,0,0,0,0.0,0,1,1,0,1,0
+Operations and Manufacturing,Campus C,Warehouse Manager,17,0,2,0,0,0,Israel,20,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus B,Head of Engineering,8,0,2,0,0,0,Israel,0,0,0,0,1,6.0,0,0,0,0,0,0
+Information Technology,Campus C,Enterprise Systems Developer (ERP / CRM / SAP),9,0,1,0,0,0,Israel,25,0,0,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus A,IT Director,19,0,2,1,1,0,Israel,21,0,0,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus C,Warehouse Manager,17,0,2,0,0,0,Israel,59,16,0,0,0,0.0,0,0,0,0,0,0
+Executive Management,Campus A,Chief Marketing and Business Development Officer,9,0,4,0,0,0,Israel,0,0,17,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus B,Manufacturing Engineer,19,0,1,0,0,0,Georgia,37,0,0,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus A,Data Scientist,21,0,2,0,0,0,Israel,0,0,42,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus B,Head of Engineering,26,0,3,0,0,0,Israel,0,0,0,0,1,10.0,1,0,0,0,0,0
+Engineering Department,Campus A,Systems Engineer,10,0,3,1,0,0,Israel,0,0,0,0,1,7.0,0,0,0,0,0,0
+R&D Department,Campus C,Head of R&D,18,0,2,0,0,0,Israel,2,0,0,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus C,Marketing Manager,21,0,2,1,0,0,Russia,0,0,7,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus A,Information Security Specialist,12,0,1,1,0,0,Ethiopia,0,0,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus C,Secretary,10,0,3,0,0,0,Israel,0,0,43,0,0,0.0,0,0,0,0,0,0
+Finance,Campus B,Secretary,16,0,2,0,0,0,France,75,0,0,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus B,Secretary,12,0,1,1,0,0,Israel,41,0,0,0,0,0.0,0,0,0,0,0,0
+Information Technology,Campus C,Information Security Specialist,23,0,1,0,0,0,Israel,0,0,118,0,0,0.0,0,0,0,0,0,1
+Project Management,Campus A,Project Coordinator,13,0,2,0,0,0,Israel,27,0,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus B,Warehouse Manager,14,0,2,0,0,0,Germany,6,0,0,0,0,0.0,0,0,0,0,0,0
+Human Resources,Campus C,Training Coordinator,14,0,2,1,0,0,Israel,37,0,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus C,Integration and Testing Engineer,5,1,2,0,0,0,Israel,0,0,37,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus C,Procurement Officer,24,0,1,0,0,1,Israel,308,0,0,0,0,0.0,0,1,2,0,0,1
+Operations and Manufacturing,Campus A,Operations Manager,14,0,2,0,0,0,Libya,8,0,5,0,0,0.0,0,2,1,0,0,0
+Information Technology,Campus A,BI Developer / Data Analyst,5,0,1,0,0,0,Ethiopia,9,0,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus C,Logistics Manager,16,0,1,0,0,0,France,0,0,0,0,0,0.0,0,1,2,0,0,0
+R&D Department,Campus A,Integration and Testing Engineer,26,0,3,0,0,0,China,20,12,99,0,0,0.0,0,1,1,0,0,1
+Project Management,Campus A,Secretary,2,1,2,0,0,1,Russia,12,0,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus C,Algorithm Engineer,5,0,3,1,0,0,Ukraine,1,0,0,0,0,0.0,0,0,0,0,0,0
+Finance,Campus A,Accountant,9,0,1,0,0,0,Ukraine,38,0,0,0,0,0.0,0,0,0,0,0,0
+Marketing and Business Development,Campus C,Account Manager,6,0,1,1,0,0,Israel,39,0,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus C,Head of R&D,24,0,3,0,0,0,Israel,5,0,0,0,0,0.0,0,0,0,0,0,0
+Marketing and Business Development,Campus C,Account Manager,13,0,3,0,0,0,Israel,1,0,21,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus C,Marketing Manager,21,0,1,0,0,0,USA,12,0,0,0,0,0.0,0,2,1,0,0,0
+R&D Department,Campus A,Development Engineer (Hardware / Software / Mechanical),7,1,3,0,0,0,Ukraine,0,0,51,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus B,Procurement Officer,0,1,2,0,0,1,Israel,6,0,0,0,0,0.0,0,0,0,0,0,0
+Human Resources,Campus B,Secretary,1,0,1,0,0,0,Germany,0,0,11,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus C,Algorithm Engineer,10,1,3,0,1,0,Israel,1,0,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus A,Secretary,13,0,2,0,0,0,Poland,16,3,0,0,0,0.0,0,0,0,0,0,0
+Project Management,Campus A,Project Engineer,2,0,2,1,0,0,Israel,144,0,0,0,0,0.0,0,4,1,0,1,0
+R&D Department,Campus C,Integration and Testing Engineer,7,0,3,0,0,0,France,0,0,26,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus C,Design Engineer,23,0,2,1,0,0,Germany,0,0,38,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus A,Secretary,8,1,1,0,0,0,Israel,13,0,0,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus C,Operations Manager,13,1,1,0,0,0,Russia,52,0,0,0,0,0.0,0,0,0,0,0,0
+Security and Information Security,Campus B,Chief Information Security Officer (CISO),25,0,2,0,0,0,Israel,4,0,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus C,Operations Manager,8,0,2,0,0,0,Israel,25,0,0,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus B,Test Engineer,24,1,2,1,0,0,Canada,0,0,35,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus B,Warehouse Manager,12,0,1,0,0,0,China,8,0,0,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus B,Design Engineer,20,0,3,1,0,1,Israel,21,6,35,0,0,0.0,0,2,1,0,0,0
+Finance,Campus C,Accountant,11,0,3,1,0,1,Poland,15,0,0,0,0,0.0,0,2,1,0,0,0
+Project Management,Campus B,Project Manager,6,0,2,0,0,0,Argentina,202,0,0,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus A,Logistics Manager,9,0,2,1,0,0,Israel,16,0,0,0,0,0.0,0,2,1,0,0,0
+Engineering Department,Campus C,Systems Engineer,11,0,2,0,0,0,Israel,0,0,35,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus C,Secretary,12,0,1,0,0,0,Israel,0,0,54,0,0,0.0,0,0,0,0,0,0
+Project Management,Campus A,Project Coordinator,7,0,1,0,0,1,Israel,20,6,0,0,0,0.0,0,2,1,0,0,0
+Operations and Manufacturing,Campus C,Secretary,4,0,2,0,0,0,Israel,124,0,25,0,0,0.0,0,0,0,0,0,0
+Marketing and Business Development,Campus C,Bid Coordinator,10,0,1,1,0,0,Ukraine,21,0,0,0,0,0.0,0,1,1,0,0,0
+Finance,Campus C,Accountant,24,0,1,0,0,0,China,12,0,0,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus C,Algorithm Engineer,19,0,2,0,0,0,France,0,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus B,Process Engineer,16,0,2,0,0,1,USA,7,0,33,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus A,Logistics Manager,11,1,2,1,0,0,Israel,10,0,5,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus C,Algorithm Engineer,11,0,3,0,0,1,Qatar,0,0,8,0,0,0.0,0,0,0,0,0,0
+Executive Management,Campus B,Chief Marketing and Business Development Officer,9,0,3,0,0,0,Israel,0,0,0,0,0,0.0,0,0,0,0,0,0
+Marketing and Business Development,Campus A,Secretary,5,0,2,0,0,0,France,53,0,0,0,0,0.0,0,1,1,0,1,0
+Operations and Manufacturing,Campus A,Secretary,14,0,1,0,0,0,Russia,0,0,4,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus A,Systems Engineer,10,0,3,1,0,0,Poland,15,0,0,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus A,Project Engineer,16,0,1,0,0,0,Ukraine,15,0,0,0,0,0.0,0,0,0,0,0,0
+Finance,Campus C,Budget Manager,14,0,1,0,0,0,Israel,56,0,0,0,0,0.0,0,0,0,0,0,0
+Project Management,Campus B,Project Manager,6,0,2,0,0,0,Argentina,43,0,0,0,0,0.0,0,3,1,0,0,0
+Operations and Manufacturing,Campus C,Secretary,16,0,2,1,0,0,France,0,0,2,0,1,8.0,0,0,0,0,0,0
+R&D Department,Campus C,Secretary,13,0,2,0,0,0,Israel,7,0,10,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus A,Operations Manager,14,0,2,0,0,0,Israel,11,0,0,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus A,Integration and Testing Engineer,23,0,2,1,0,1,Israel,7,0,0,0,0,0.0,0,2,1,0,0,1
+Operations and Manufacturing,Campus C,Operations Manager,12,0,1,0,0,1,Israel,34,0,0,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus B,Warehouse Manager,21,0,2,0,0,0,Ukraine,22,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus A,Process Engineer,11,0,2,0,0,0,South Africa,0,0,38,0,0,0.0,0,1,1,0,0,0
+R&D Department,Campus C,Secretary,15,0,2,0,0,0,Israel,1,0,48,0,0,0.0,0,1,1,0,0,0
+Marketing and Business Development,Campus B,Bid Coordinator,26,0,1,0,0,0,Canada,5,0,0,0,0,0.0,0,0,0,0,0,0
+Engineering Department,Campus A,Process Engineer,18,0,3,0,0,0,USA,0,0,27,0,0,0.0,0,1,1,0,0,0
+Information Technology,Campus C,Information Security Specialist,25,0,2,0,1,0,Israel,0,0,46,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus C,Secretary,15,0,2,0,0,0,Israel,10,1,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus A,Secretary,16,0,2,1,0,0,Israel,0,0,20,0,0,0.0,0,0,0,0,0,0
+Operations and Manufacturing,Campus C,Operations Manager,10,0,2,1,0,0,Morocco,13,0,3,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus B,Logistics Manager,19,0,2,0,0,0,Russia,90,27,0,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus C,Project Manager,8,0,3,0,0,1,Morocco,0,0,0,0,0,0.0,0,1,1,0,1,0
+Project Management,Campus C,Secretary,10,0,2,0,0,0,Israel,24,0,0,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus B,Project Coordinator,10,0,1,0,0,0,Ethiopia,53,0,0,0,0,0.0,0,2,1,0,0,0
+Information Technology,Campus C,IT Director,29,0,1,0,0,1,Israel,1,0,0,0,0,0.0,0,0,0,0,0,0
+R&D Department,Campus C,Integration and Testing Engineer,5,0,2,0,0,0,Qatar,6,0,0,0,0,0.0,0,1,1,0,0,0
+Project Management,Campus B,Project Manager,7,0,2,0,0,1,Israel,13,0,0,0,0,0.0,0,1,1,0,0,0
+Operations and Manufacturing,Campus B,Procurement Officer,3,1,3,0,0,0,Israel,3,0,0,0,0,0.0,0,1,1,0,0,0
+Engineering Department,Campus B,Design Engineer,17,0,3,0,0,0,Israel,0,0,25,0,0,0.0,0,0,0,0,0,0

@@ -5,5 +5,7 @@ shap==0.51.0
 imbalanced-learn==0.14.1
 matplotlib==3.10.8
 seaborn==0.13.2
-streamlit
 joblib
+fastapi
+uvicorn[standard]
+pydantic

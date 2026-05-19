@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply bg-white border border-gray-200 rounded-xl p-4;
+  }
+
+  .input-field {
+    @apply w-full px-3 py-2 text-sm border border-gray-200 rounded-lg bg-white text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-900 focus:border-gray-900;
+  }
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+/* ── Section fade-in (staggered per page) ───────────────────────── */
+@keyframes section-fade {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* `backwards` fill mode applies the from-keyframe during the delay,
+   then reverts to the base (no transform) after the animation ends,
+   so no lingering stacking context that would clip tooltips. */
+.section {
+  animation: section-fade 0.5s cubic-bezier(0.22, 1, 0.36, 1) backwards;
+}
+
+.section-d0 { animation-delay: 0s;    }
+.section-d1 { animation-delay: 0.06s; }
+.section-d2 { animation-delay: 0.12s; }
+.section-d3 { animation-delay: 0.18s; }
+.section-d4 { animation-delay: 0.24s; }
+.section-d5 { animation-delay: 0.30s; }
+.section-d6 { animation-delay: 0.36s; }
+
+/* ── Night-sky animated gradient (Analyse buttons) ───────────────── */
+@keyframes night-shift {
+  from { background-position: 0% 50%; }
+  to   { background-position: 100% 50%; }
+}
+
+@keyframes twinkle-slow {
+  0%, 100% { opacity: 0.45; }
+  50%      { opacity: 1; }
+}
+
+@keyframes twinkle-fast {
+  0%, 100% { opacity: 0.25; }
+  50%      { opacity: 1; }
+}
+
+.night-sky {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(125deg, #07091a 0%, #1e1b4b 50%, #07091a 100%);
+  background-size: 220% 220%;
+  animation: night-shift 14s ease-in-out infinite alternate;
+}
+
+/* Distant stars, slow twinkle */
+.night-sky::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background:
+    radial-gradient(1.5px 1.5px at 12% 22%, #ffffff, transparent 60%),
+    radial-gradient(1px   1px   at 38% 60%, #e5e7eb, transparent 60%),
+    radial-gradient(2px   2px   at 68% 30%, #ffffff, transparent 60%),
+    radial-gradient(1px   1px   at 82% 75%, #c7d2fe, transparent 60%),
+    radial-gradient(1.5px 1.5px at 25% 85%, #ffffff, transparent 60%),
+    radial-gradient(1px   1px   at 92% 12%, #a5b4fc, transparent 60%),
+    radial-gradient(1.5px 1.5px at 55% 50%, #ffffff, transparent 60%);
+  animation: twinkle-slow 5.5s ease-in-out infinite;
+}
+
+/* Foreground stars, faster twinkle, out of phase */
+.night-sky::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background:
+    radial-gradient(1.5px 1.5px at 18% 42%, #ffffff, transparent 60%),
+    radial-gradient(1.5px 1.5px at 72% 78%, #ffffff, transparent 60%),
+    radial-gradient(1.5px 1.5px at 45% 18%, #ffffff, transparent 60%),
+    radial-gradient(1.5px 1.5px at 88% 55%, #ffffff, transparent 60%),
+    radial-gradient(1px   1px   at 30% 50%, #c7d2fe, transparent 60%),
+    radial-gradient(1px   1px   at 62% 15%, #ffffff, transparent 60%);
+  animation: twinkle-fast 2.8s ease-in-out infinite;
+  animation-delay: -1.4s;
+}

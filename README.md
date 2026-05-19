@@ -18,33 +18,67 @@ cos720_aitds/
 │   ├── shap_waterfall_tp.png
 │   ├── shap_waterfall_fn.png
 │   └── test_predictions.csv
-├── train.py       ← STEP 1: run this first
-├── app.py         ← STEP 2: run this after training
+├── train.py             ← STEP 1: train the model
+├── main.py              ← STEP 2: FastAPI backend
 ├── requirements.txt
+├── frontend/            ← STEP 3: Next.js dashboard (Pages Router)
+│   ├── package.json
+│   ├── tailwind.config.ts
+│   ├── next.config.mjs
+│   ├── tsconfig.json
+│   └── src/
+│       ├── pages/
+│       │   ├── _app.tsx          ← global layout (Sidebar + main)
+│       │   ├── index.tsx         ← Overview
+│       │   ├── analyse.tsx       ← Analyse employee
+│       │   ├── batch.tsx         ← Batch upload
+│       │   └── model.tsx         ← Model info
+│       ├── components/
+│       │   ├── Sidebar.tsx
+│       │   └── ShapChart.tsx
+│       ├── lib/
+│       │   └── api.ts            ← all fetch calls
+│       └── styles/
+│           └── globals.css
 └── README.md
 ```
 
 ## Setup
 
+### 1. Backend (Python + FastAPI)
+
 ```bash
-# 1. Create and activate a virtual environment
+# Create and activate a virtual environment
 python -m venv venv
 venv\Scripts\activate        # Windows
 source venv/bin/activate     # macOS / Linux
 
-# 2. Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-# 3. Put the dataset in the data/ folder
-#    Download from:
-#    https://www.kaggle.com/datasets/ahmeduzaki/insider-threat-dataset-for-corporate-environments
+# Put the dataset in the data/ folder
+# Download from:
+# https://www.kaggle.com/datasets/ahmeduzaki/insider-threat-dataset-for-corporate-environments
 
-# 4. Train the model
+# Train the model (creates models/ and outputs/)
 python train.py
 
-# 5. Run the prototype app
-streamlit run app.py
+# Start the API on http://localhost:8000
+uvicorn main:app --reload --port 8000
 ```
+
+### 2. Frontend (Next.js)
+
+In a second terminal:
+
+```bash
+cd frontend
+npm install
+npm run dev          # http://localhost:3000
+```
+
+The dashboard exposes four pages — Overview, Analyse employee, Batch upload,
+and Model info — all backed by the FastAPI endpoints in [main.py](main.py).
 
 ## What train.py does
 1. Loads the dataset (118,614 rows)

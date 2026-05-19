@@ -1,6 +1,5 @@
-"use client";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useRouter } from "next/router";
 import { ShieldCheck, Search, Upload, BarChart2, Activity } from "lucide-react";
 import clsx from "clsx";
 
@@ -12,7 +11,7 @@ const nav = [
 ];
 
 export default function Sidebar() {
-  const path = usePathname();
+  const path = useRouter().pathname;
   return (
     <aside className="fixed left-0 top-0 h-full w-56 bg-white border-r border-gray-200 flex flex-col py-6 px-4">
       <div className="flex items-center gap-2.5 mb-8 px-1">

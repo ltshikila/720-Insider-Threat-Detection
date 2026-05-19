@@ -1,4 +1,3 @@
-"use client";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ReferenceLine, ResponsiveContainer, Cell } from "recharts";
 import type { ShapDriver } from "@/lib/api";
 

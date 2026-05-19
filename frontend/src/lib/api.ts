@@ -60,7 +60,10 @@ export async function classifyBatch(
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(records),
   });
-  if (!res.ok) throw new Error("Batch classification failed");
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error(typeof err.detail === "string" ? err.detail : "Batch classification failed");
+  }
   return res.json();
 }
 
