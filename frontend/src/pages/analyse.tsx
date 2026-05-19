@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { ShieldAlert, ShieldCheck, Loader2, AlertCircle } from "lucide-react";
-import { classifyEmployee, getMeta, type ClassificationResult, type EmployeeRecord } from "@/lib/api";
+import { getMeta, type EmployeeRecord } from "@/lib/api";
+import { useJobs } from "@/lib/jobs";
 import dynamic from "next/dynamic";
 
 const ShapChart = dynamic(() => import("@/components/ShapChart"), { ssr: false });
@@ -51,36 +52,42 @@ function Toggle({ checked, onChange }: { checked: boolean; onChange: (v: boolean
 }
 
 export default function AnalysePage() {
-  const [form, setForm]       = useState<EmployeeRecord>(DEFAULT);
-  const [meta, setMeta]       = useState<{ departments: string[]; positions: string[]; campuses: string[]; countries: string[] } | null>(null);
-  const [result, setResult]   = useState<ClassificationResult | null>(null);
-  const [loading, setLoading] = useState(false);
-  const [error, setError]     = useState<string | null>(null);
+  const { analyseJob, runAnalyse, clearAnalyse } = useJobs();
+  const [form, setForm] = useState<EmployeeRecord>(DEFAULT);
+  const [meta, setMeta] = useState<{ departments: string[]; positions: string[]; campuses: string[]; countries: string[] } | null>(null);
 
   useEffect(() => { getMeta().then(setMeta).catch(() => {}); }, []);
 
   const set = (k: keyof EmployeeRecord, v: string | number) =>
     setForm((f) => ({ ...f, [k]: v }));
 
-  const submit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setLoading(true); setError(null); setResult(null);
-    try {
-      setResult(await classifyEmployee(form));
-    } catch (err: unknown) {
-      setError(err instanceof Error ? err.message : "Failed to connect to API. Is FastAPI running?");
-    } finally {
-      setLoading(false);
-    }
-  };
-
+  const loading = analyseJob?.status === "running";
+  const result  = analyseJob?.status === "done"  ? analyseJob.result : null;
+  const error   = analyseJob?.status === "error" ? analyseJob.error  : null;
   const isMalicious = result?.label === "Malicious";
+
+  const submit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (loading) return;
+    runAnalyse(form);
+  };
 
   return (
     <div className="space-y-6">
-      <div className="section section-d0">
-        <h1 className="text-2xl font-semibold text-gray-900">Analyse employee</h1>
-        <p className="text-sm text-gray-500 mt-1">Fill in the employee&apos;s behavioural profile and run the classifier.</p>
+      <div className="section section-d0 flex items-center justify-between">
+        <div>
+          <h1 className="text-2xl font-semibold text-gray-900">Analyse employee</h1>
+          <p className="text-sm text-gray-500 mt-1">Fill in the employee&apos;s behavioural profile and run the classifier.</p>
+        </div>
+        {analyseJob && analyseJob.status !== "running" && (
+          <button
+            type="button"
+            onClick={clearAnalyse}
+            className="text-xs text-gray-500 hover:text-gray-900 transition-colors"
+          >
+            Clear
+          </button>
+        )}
       </div>
 
       <form onSubmit={submit} className="space-y-6">

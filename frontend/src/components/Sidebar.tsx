@@ -1,13 +1,14 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { ShieldCheck, Search, Upload, BarChart2, Activity } from "lucide-react";
+import { ShieldCheck, Search, Upload, BarChart2, Activity, Clock } from "lucide-react";
 import clsx from "clsx";
 
 const nav = [
-  { href: "/",        label: "Overview",        icon: Activity  },
+  { href: "/",        label: "Overview",         icon: Activity  },
   { href: "/analyse", label: "Analyse employee", icon: Search    },
   { href: "/batch",   label: "Batch upload",     icon: Upload    },
   { href: "/model",   label: "Model info",       icon: BarChart2 },
+  { href: "/history", label: "History",          icon: Clock     },
 ];
 
 export default function Sidebar() {
@@ -19,8 +20,8 @@ export default function Sidebar() {
           <ShieldCheck size={14} color="white" strokeWidth={2} />
         </div>
         <div>
-          <p className="text-sm font-medium leading-none text-gray-900">Threat Detect</p>
-          <p className="text-[11px] text-gray-400 mt-0.5">COS720 · UP 2026</p>
+          <p className="text-sm font-medium leading-none text-gray-900">Soteria</p>
+          <p className="text-[11px] text-gray-400 mt-0.5">Insider threat detection</p>
         </div>
       </div>
 

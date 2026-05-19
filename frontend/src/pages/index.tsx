@@ -38,9 +38,9 @@ export default function HomePage() {
   return (
     <div className="space-y-8">
       <div className="section section-d0">
-        <h1 className="text-2xl font-semibold text-gray-900">Insider Threat Detection</h1>
+        <h1 className="text-2xl font-semibold text-gray-900">Soteria</h1>
         <p className="text-sm text-gray-500 mt-1">
-          AI-powered behavioural classification · University of Pretoria COS720 · 2026
+          AI-powered behavioural classification for insider threat detection
         </p>
       </div>
 
