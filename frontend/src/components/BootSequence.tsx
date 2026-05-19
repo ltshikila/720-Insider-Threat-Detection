@@ -8,12 +8,16 @@ const LINES = [
   "Loading Random Forest · 100 trees",
   "Calibrating SHAP explainer",
   "Linking 21-dimensional feature space",
+  "Loading employee profile encoders",
+  "Mounting confusion matrix telemetry",
+  "Running self-diagnostic",
+  "Establishing secure channel · localhost:8000",
   "Verifying inference endpoint",
   "Soteria online · standing by",
 ];
 
-const LINE_INTERVAL_MS = 220;
-const HOLD_AFTER_LAST_MS = 650;
+const LINE_INTERVAL_MS = 420;
+const HOLD_AFTER_LAST_MS = 800;
 const FADE_OUT_MS = 500;
 
 type Phase = "hidden" | "booting" | "fading";
