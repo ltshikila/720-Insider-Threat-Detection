@@ -37,6 +37,26 @@ body {
 .section-d5 { animation-delay: 0.30s; }
 .section-d6 { animation-delay: 0.36s; }
 
+/* ── Boot sequence (Soteria startup HUD) ────────────────────────── */
+@keyframes boot-ring-cw  { to { transform: rotate(360deg);  } }
+@keyframes boot-ring-ccw { to { transform: rotate(-360deg); } }
+@keyframes boot-pulse {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50%      { opacity: 1;   transform: scale(1.05); }
+}
+@keyframes boot-overlay-in  { from { opacity: 0; } to { opacity: 1; } }
+@keyframes boot-overlay-out { from { opacity: 1; } to { opacity: 0; } }
+@keyframes boot-line-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes boot-scan {
+  0%   { transform: translateY(-30vh); opacity: 0; }
+  10%  { opacity: 0.4; }
+  90%  { opacity: 0.4; }
+  100% { transform: translateY(110vh); opacity: 0; }
+}
+
 /* ── Night-sky animated gradient (Analyse buttons) ───────────────── */
 @keyframes night-shift {
   from { background-position: 0% 50%; }

@@ -2,6 +2,7 @@ import type { AppProps } from "next/app";
 import Head from "next/head";
 import Sidebar from "@/components/Sidebar";
 import ToastOutlet from "@/components/Toast";
+import BootSequence from "@/components/BootSequence";
 import { JobsProvider } from "@/lib/jobs";
 import "../styles/globals.css";
 
@@ -12,7 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>Soteria · Insider Threat Detection</title>
         <meta
           name="description"
-          content="Soteria — AI-powered behavioural classification for insider threat detection."
+          content="Soteria, AI-powered behavioural classification for insider threat detection."
         />
       </Head>
       <Sidebar />
@@ -20,6 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
       </main>
       <ToastOutlet />
+      <BootSequence />
     </JobsProvider>
   );
 }
