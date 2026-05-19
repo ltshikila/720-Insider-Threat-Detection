@@ -6,14 +6,17 @@ import { CountUp } from "@/lib/useCountUp";
 
 interface Row extends ClassificationResult { _index: number; _dept: string; _pos: string; }
 
+const CHUNK_SIZE = 50;
+
 export default function BatchPage() {
-  const [rows, setRows]       = useState<Row[]>([]);
-  const [loading, setLoading] = useState(false);
-  const [error, setError]     = useState<string | null>(null);
+  const [rows, setRows]         = useState<Row[]>([]);
+  const [loading, setLoading]   = useState(false);
+  const [error, setError]       = useState<string | null>(null);
   const [dragging, setDragging] = useState(false);
+  const [progress, setProgress] = useState({ done: 0, total: 0 });
 
   const process = async (file: File) => {
-    setError(null); setRows([]); setLoading(true);
+    setError(null); setRows([]); setProgress({ done: 0, total: 0 }); setLoading(true);
     Papa.parse<Record<string, string>>(file, {
       header: true,
       skipEmptyLines: true,
@@ -48,7 +51,14 @@ export default function BatchPage() {
             is_contractor:              +(r.is_contractor           ?? 0),
           } as EmployeeRecord));
 
-          const results = await classifyBatch(records);
+          setProgress({ done: 0, total: records.length });
+          const results: ClassificationResult[] = [];
+          for (let i = 0; i < records.length; i += CHUNK_SIZE) {
+            const chunk = records.slice(i, i + CHUNK_SIZE);
+            const chunkResults = await classifyBatch(chunk);
+            results.push(...chunkResults);
+            setProgress({ done: results.length, total: records.length });
+          }
           setRows(results.map((res, i) => ({
             ...res,
             _index: i + 1,
@@ -59,6 +69,7 @@ export default function BatchPage() {
           setError(e instanceof Error ? e.message : "Classification failed");
         } finally {
           setLoading(false);
+          setProgress({ done: 0, total: 0 });
         }
       },
       error: () => { setError("Failed to parse CSV"); setLoading(false); },
@@ -107,8 +118,24 @@ export default function BatchPage() {
       </div>
 
       {loading && (
-        <div className="section section-d2 flex items-center gap-2.5 text-sm text-gray-500 p-4 bg-white border border-gray-200 rounded-xl">
-          <Loader2 size={15} className="animate-spin" /> Classifying records…
+        <div className="section section-d2 p-4 bg-white border border-gray-200 rounded-xl">
+          <div className="flex items-center justify-between text-sm text-gray-600">
+            <span className="flex items-center gap-2.5">
+              <Loader2 size={15} className="animate-spin text-gray-500" />
+              Classifying records...
+            </span>
+            <span className="font-mono text-xs text-gray-500">
+              {progress.total > 0
+                ? `${progress.done} / ${progress.total} (${Math.round((progress.done / progress.total) * 100)}%)`
+                : "preparing..."}
+            </span>
+          </div>
+          <div className="mt-3 h-1.5 bg-gray-100 rounded-full overflow-hidden">
+            <div
+              className="h-full rounded-full bg-gray-900 transition-all duration-200 ease-out"
+              style={{ width: progress.total > 0 ? `${(progress.done / progress.total) * 100}%` : "0%" }}
+            />
+          </div>
         </div>
       )}
 
@@ -150,7 +177,13 @@ export default function BatchPage() {
                       <td className="px-4 py-2.5 text-gray-600 text-xs max-w-[140px] truncate">{r._dept}</td>
                       <td className="px-4 py-2.5 text-gray-600 text-xs max-w-[140px] truncate">{r._pos}</td>
                       <td className="px-4 py-2.5">
-                        <span className={r.label === "Malicious" ? "badge-malicious" : "badge-benign"}>
+                        <span
+                          className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-medium ${
+                            r.label === "Malicious"
+                              ? "bg-[#FCEBEB] text-[#A32D2D]"
+                              : "bg-[#EAF3DE] text-[#3B6D11]"
+                          }`}
+                        >
                           {r.label === "Malicious"
                             ? <><ShieldAlert size={10} /> Malicious</>
                             : <><ShieldCheck size={10} /> Benign</>}
