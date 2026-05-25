@@ -1,4 +1,4 @@
-import { createContext, useCallback, useContext, useEffect, useState } from "react";
+import { createContext, useCallback, useContext, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/router";
 import Papa from "papaparse";
 import { classifyBatch, classifyEmployee, type ClassificationResult, type EmployeeRecord } from "@/lib/api";
@@ -104,6 +104,11 @@ export function JobsProvider({ children }: { children: React.ReactNode }) {
   const [history, setHistory]       = useState<Job[]>([]);
   const [toasts, setToasts]         = useState<Toast[]>([]);
 
+  // Track the live pathname in a ref so finishJob always sees the current
+  // route, not whatever pathname was captured when the job started.
+  const pathnameRef = useRef(router.pathname);
+  useEffect(() => { pathnameRef.current = router.pathname; }, [router.pathname]);
+
   useEffect(() => {
     try {
       const raw = window.localStorage.getItem(HISTORY_KEY);
@@ -129,7 +134,7 @@ export function JobsProvider({ children }: { children: React.ReactNode }) {
 
   const finishJob = useCallback((job: Job, expectedPath: string) => {
     setHistory((h) => [job, ...h.filter((x) => x.id !== job.id)].slice(0, HISTORY_LIMIT));
-    if (router.pathname !== expectedPath) {
+    if (pathnameRef.current !== expectedPath) {
       const message =
         job.status === "error"
           ? job.type === "batch" ? "Batch upload failed" : "Employee analysis failed"
@@ -138,7 +143,7 @@ export function JobsProvider({ children }: { children: React.ReactNode }) {
             : `Analysis complete: ${job.result?.label}`;
       pushToast({ jobId: job.id, jobType: job.type, message, status: job.status });
     }
-  }, [router.pathname, pushToast]);
+  }, [pushToast]);
 
   const runBatch = useCallback((file: File) => {
     const id = newId();
